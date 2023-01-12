@@ -2,7 +2,7 @@
     <BoxVue>
         <div class="columns">
          <div class="column is-4">
-            {{ tarefa.descricao || 'Tarefa sem descrição'}}
+            {{ tarefa.descricao }}
          </div>
          <div class="column is-3">{{ tarefa.projeto?.nome || 'Não disponível' }}</div>
          <div class="column">
