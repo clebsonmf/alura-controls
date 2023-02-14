@@ -1,7 +1,7 @@
 <template>
     <header>
         <h1>
-            <img src="../assets/logo.png" alt="Logo da alura controls">
+            <img src="../../public/logo.png" alt="Logo da alura controls">
         </h1>
         <div class="has-text-centered">
           <button class="button" @click="alterarTema">

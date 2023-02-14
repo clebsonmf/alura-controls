@@ -7,6 +7,39 @@
     {
       "id": 2,
       "nome": "vue.js 3"
+    },
+    {
+      "nome": "tailwind",
+      "id": 3
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duraçãoEmSegundos": 120,
+      "descricao": "Configuração do ambiente",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      }
+    },
+    {
+      "duracaoEmSegundos": 2,
+      "descricao": "",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      },
+      "id": 2
+    },
+    {
+      "duracaoEmSegundos": 2,
+      "descricao": "VUEX",
+      "projeto": {
+        "id": 2,
+        "nome": "vue.js 3"
+      },
+      "id": 3
     }
   ]
 }

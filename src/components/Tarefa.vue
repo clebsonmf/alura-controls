@@ -1,6 +1,6 @@
 <template>
     <BoxVue>
-        <div class="columns">
+        <div class="columns clicavel" @click="tarefaClicada">
          <div class="column is-4">
             {{ tarefa.descricao }}
          </div>
@@ -26,8 +26,19 @@ export default defineComponent({
     props: {
         tarefa: {
             type: Object as PropType<ITarefa>,
-                required: true
+            required: true
+        }
+    },
+    emits:['aoTarefaClicada'],
+    methods: {
+        tarefaClicada():void{
+             this.$emit('aoTarefaClicada', this.tarefa)
         }
     }
 });
 </script>
+<style scoped>
+.clicavel{
+    cursor: pointer;
+}
+</style>
