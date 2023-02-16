@@ -6,18 +6,18 @@
     },
     {
       "id": 2,
-      "nome": "vue.js 3"
+      "nome": "Vue.js 3"
     },
     {
-      "nome": "tailwind",
-      "id": 3
+      "id": 3,
+      "nome": "Tailwind"
     }
   ],
   "tarefas": [
     {
       "id": 1,
       "duraçãoEmSegundos": 120,
-      "descricao": "Configuração do ambiente",
+      "descricao": "Configurações dos ambientes",
       "projeto": {
         "id": 1,
         "nome": "Alura Tracker"

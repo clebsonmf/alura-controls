@@ -37,7 +37,7 @@
           </div>
         </section>
         <footer class="modal-card-foot">
-          <button class="button is-success">Salvar alterações</button>
+          <button @click="alterarTarefa" class="button is-success">Salvar alterações</button>
           <button class="button" @click="fecharModal">
             Cancelar alterações
           </button>
@@ -56,6 +56,7 @@ import BoxVue from "../components/Box.vue";
 import { useStore } from "@/store";
 import ITarefa from "@/Interface/ITarefa";
 import {
+  ALTERAR_TAREFA,
   CADASTRAR_TAREFA,
   OBTER_PROJETOS,
   OBTER_TAREFAS,
@@ -83,6 +84,10 @@ export default defineComponent({
     fecharModal() {
       this.tarefaSelecionada = null;
     },
+    alterarTarefa(){
+      this.store.dispatch(ALTERAR_TAREFA, this.tarefaSelecionada)
+        .then(() => this.fecharModal())
+    }
   },
   computed: {
     listaEstaVazia(): boolean {
