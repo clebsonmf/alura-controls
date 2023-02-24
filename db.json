@@ -2,7 +2,7 @@
   "projetos": [
     {
       "id": 1,
-      "nome": "Alura Tracker"
+      "nome": "Alura Controls"
     },
     {
       "id": 2,
@@ -11,6 +11,10 @@
     {
       "id": 3,
       "nome": "Tailwind"
+    },
+    {
+      "id": 4,
+      "nome": "Estudando padrões de projetos"
     }
   ],
   "tarefas": [
@@ -40,6 +44,15 @@
         "nome": "vue.js 3"
       },
       "id": 3
+    },
+    {
+      "duracaoEmSegundos": 4,
+      "descricao": "Composition API",
+      "projeto": {
+        "id": 2,
+        "nome": "Vue.js 3"
+      },
+      "id": 4
     }
   ]
 }
