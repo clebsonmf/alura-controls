@@ -31,7 +31,7 @@
 <script lang="ts">
 import { key } from '../store';
 import { computed, defineComponent, ref } from 'vue';
-import { Computed, useStore } from 'vuex';
+import { useStore } from 'vuex';
 import TemporizadorVue from './Temporizador.vue'
 
 export default defineComponent({

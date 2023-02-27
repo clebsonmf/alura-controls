@@ -29,7 +29,7 @@
     },
     {
       "duracaoEmSegundos": 2,
-      "descricao": "",
+      "descricao": "Vue3",
       "projeto": {
         "id": 1,
         "nome": "Alura Tracker"
@@ -38,7 +38,7 @@
     },
     {
       "duracaoEmSegundos": 2,
-      "descricao": "VUEX",
+      "descricao": "Vuex",
       "projeto": {
         "id": 2,
         "nome": "vue.js 3"
